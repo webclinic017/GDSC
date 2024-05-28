@@ -1,0 +1,16 @@
+streamlit
+pandas
+yfinance
+backtrader
+datetime
+matplotlib
+prophet
+python-dateutil
+requests
+torch
+numpy
+scikit-learn
+scipy
+torchvision
+tqdm
+Pillow
