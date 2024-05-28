@@ -12,6 +12,10 @@ from PIL import Image
 import requests
 from io import BytesIO
 
+# 設置 Matplotlib 背景顏色
+plt.rcParams['axes.facecolor'] = '#2E0854'  # 設置圖表區域背景顏色為暗紫色
+plt.rcParams['figure.facecolor'] = '#2E0854'  # 設置整個圖表背景顏色為暗紫色
+
 # Prophet 預測函數
 def predict_stock(selected_stock, n_years):
     data = yf.download(selected_stock, start="2010-01-01", end=datetime.date.today().strftime("%Y-%m-%d"))
